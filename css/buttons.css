@@ -1,0 +1,28 @@
+@keyframes rainbowColor {
+    0% {
+        color: #FF0000;
+    }
+    50% {
+        color: #00FF00;
+    }
+    100% {
+        color: #0000FF;
+    }
+}
+
+button {
+    padding: 12px;
+    font-size: 1.4em;
+    font-family: consolas;
+    background: rgba(0,0,0,0);
+    text-align: center;
+    border-radius: .35em;
+    border: .2em solid currentColor;
+    color: #555;
+    outline: none;
+}
+button:hover {
+    animation-name: rainbowColor;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+}

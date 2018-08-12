@@ -1,0 +1,6 @@
+.list {
+    background: red;
+}
+.list > ol > li {
+    padding: 5px
+}
