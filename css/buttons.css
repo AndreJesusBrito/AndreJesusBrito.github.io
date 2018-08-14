@@ -12,11 +12,11 @@
 
 button {
     padding: 12px;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-family: consolas;
     background: rgba(0,0,0,0);
     text-align: center;
-    border-radius: .35em;
+    border-radius: .35rem;
     border: .2em solid currentColor;
     color: #555;
     outline: none;

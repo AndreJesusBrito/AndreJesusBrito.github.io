@@ -10,6 +10,7 @@ a, button {
 body {
     font-family: consolas;
     text-align: center;
+    font-size: 1.3em;
 
     background-image: url("../img/tile1.svg");
     background-repeat: repeat;
@@ -19,24 +20,17 @@ body {
 h1 {
     text-align: center;
     color: #444;
-    font-size: 6em;
-    margin-bottom: 0;
+    font-size: 6rem;
+    margin: 0;
 }
 
 h2 {
     text-align: center;
     color: #777;
-    font-size: 3em;
+    font-size: 3rem;
     margin-top: -15px;
 }
 
-
-
 img {
     vertical-align: middle;
-}
-
-.container {
-    width: 60%;
-    margin: auto
 }
