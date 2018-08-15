@@ -10,3 +10,10 @@ main {
 span {
     display: inline-block;
 }
+
+a {
+    font-style: italic;
+    white-space: nowrap;
+    color: inherit;
+    text-decoration: none;
+}
